@@ -1,0 +1,73 @@
+Salvesta - сохрани
+
+Lülita sisse - включи
+
+Lülita välja - выключи
+
+Laadi alla - скачай / laadi alla faili
+
+Laadi üles - закачай - загрузи / faili laadi üles serverisse
+
+kustuta
+
+käivita
+
+lohista - тяни, тащи / lohista faili
+
+sisesta - введи / вставь
+
+lisa -
+
+kuva - отобрази
+
+muuda -
+
+--------------
+
+andmebaas
+
+andmebaasihaldusüsteem - СУБД
+
+versioonihaldussüsteem -... /gitHub
+
+väärtus - значение
+
+tabel, rida, veerg
+
+kirje / kirjed -запись
+
+väli / väljad - поля
+
+lause = päring - предложение / запрос
+
+piirang - ограничение / UNIQUE, NOT NULL, PRIMARY KEY, FOREIGN KEY, CHECK
+
+tulemus - результат
+
+seos - связь
+
+seosta tabelid - связать таблицы
+
+veateade - сообщение об ошибке
+
+suurus - размер / väljasuurus
+
+andmetüüp - 
+
+arvtüüp - 
+
+sümboltüüp -
+
+loogiline tüüp
+
+kuupäev/aeg
+
+tabeli eemaldamine -DROP TABLE 
+
+veeru muutmine / lisame / eemaldamine
+
+tabeli loomine / luua tabelid -CREATE TABLE
+
+primaarne võti - Primaar Võti
+
+välisvõti - Foreign Key
