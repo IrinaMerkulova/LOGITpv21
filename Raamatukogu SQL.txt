@@ -27,3 +27,13 @@ Hind decimal(5,2),
 foreign key (Autor) references Autorid(Autori_kood),
 foreign key (Keel) references Keel(Keel_kood)
 );
+
+
+
+CREATE TABLE Klient(
+Kliendi_kood int PRIMARY KEY AUTO_INCREMENT,
+Nimi varchar(30),
+Perenimi varchar(30),
+Isikukood Bigint,
+Aadress varchar(50)
+);
