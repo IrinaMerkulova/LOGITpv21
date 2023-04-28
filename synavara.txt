@@ -12,7 +12,7 @@ Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
 kustuta - удалить
 
-käivita - 
+käivita - выполнить
 
 lohista - тяни, тащи / lohista faili
 
@@ -62,7 +62,7 @@ sümboltüüp - тим символа
 
 loogiline tüüp
 
-kuupäev/aeg
+kuupäev/aeg -
 
 tabeli eemaldamine -DROP TABLE 
 
