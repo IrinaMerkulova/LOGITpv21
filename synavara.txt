@@ -52,7 +52,7 @@ seosta tabelid - связать таблицы
 
 veateade - сообщение об ошибке
 
-suurus - размер / väljasuurus
+suurus - размер / väljasuurus - размер поля
 
 andmetüüp - 
 
