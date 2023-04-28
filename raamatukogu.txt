@@ -42,6 +42,11 @@ Aadress varchar(30) not null,
 foreign key (IDklient) references Laenutus(IDlaenutus)
 );
 
+CREATE TABLE Linn (
+IDautorid int primary key AUTO_INCREMENT,
+LinnaNimi varchar(30) not null
+);
+
 CREATE TABLE OstuKrv (
 IDostu int primary key AUTO_INCREMENT,
 IDautorid int,
