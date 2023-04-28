@@ -19,6 +19,11 @@ Keel int,
 foreign key (Autor) references Autorid(Autori_kood),
 foreign key (Keel) references Keel(Keel_kood));
 
+create table Linn (
+Linn INT PRIMARY KEY AUTO_INCREMENT,
+linn_id int,
+Linnnimi varchar(30) not null);
+
 create table Ostukorv (
 Ostu_id INT PRIMARY KEY AUTO_INCREMENT,
 Raamat int,
