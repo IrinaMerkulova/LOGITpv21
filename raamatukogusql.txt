@@ -53,3 +53,13 @@ create table linn(
 linn_kood int primary key AUTO_INCREMENT,
 linnanimi varchar(20) not null,
 );
+
+create table ostukorv(
+ostu_id int primary key AUTO_INCREMENT,
+raamat int,
+foreign key (raamat) references raamatud(raamatu_kood),
+linn int,
+foreign key (linn) references linn(linn_kood),
+kuupaev date,
+kogus decimal(5,2)
+);
