@@ -57,3 +57,15 @@ CREATE TABLE Linn(
 LinnID int PRIMARY KEY AUTO_INCREMENT,
 Linnanimi varchar(30) UNIQUE
 );
+
+
+
+CREATE TABLE OstuKorv(
+Ostu_ID int PRIMARY KEY AUTO_INCREMENT,
+RaamatID int,
+Kuupaev date,
+Kogus int,
+LinnID int,
+foreign key (RaamatID) references Raamatud(Raamatu_kood),
+foreign key (LinnID) references Linn(LinnID)
+);
