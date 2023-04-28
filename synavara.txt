@@ -68,7 +68,7 @@ tabeli eemaldamine -DROP TABLE - удаление стобца
 
 veeru muutmine / lisame / eemaldamine - изменение/добавление/удаление столбца
 
-tabeli loomine / luua tabelid -CREATE TABLE
+tabeli loomine / luua tabelid -CREATE TABLE - создание таблиц / создание таблиц
 
 primaarne võti - Primaar Võti
 
