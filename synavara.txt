@@ -10,7 +10,7 @@ Laadi alla - скачай / laadi alla faili
 
 Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
-kustuta - удалить
+kustuta - удалить*
 
 käivita - запустить
 
