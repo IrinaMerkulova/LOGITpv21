@@ -56,7 +56,7 @@ suurus - размер / väljasuurus
 
 andmetüüp - тип данных
 
-arvtüüp -
+arvtüüp - тип чисел
 
 sümboltüüp -
 
