@@ -12,7 +12,7 @@ Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
 kustuta - стереть
 
-käivita
+käivita - запуск
 
 lohista - тяни, тащи / lohista faili
 
