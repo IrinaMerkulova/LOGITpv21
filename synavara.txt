@@ -59,7 +59,7 @@ arvtüüp - тип числа*
 
 sümboltüüp - тип символа*
 
-loogiline tüüp - логический тип
+loogiline tüüp - логический тип*
 
 kuupäev/aeg - дата/время
 
