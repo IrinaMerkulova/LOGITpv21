@@ -1,0 +1,9 @@
+CREATE TABLE Autorid( 
+Autori_kood int PRIMARY KEY AUTO_INCREMENT,
+Nimi varchar(30),
+Perenimi varchar(30),
+Sunniaasta date,
+Sugu varchar(10) 
+); 
+
+INSERT INTO `autorid` (`Autori_kood`, `Nimi`, `Perenimi`, `Sunniaasta`, `Sugu`) VALUES (NULL, 'Aleksei', 'Tolstoi', '1883-01-10', 'Mees');
