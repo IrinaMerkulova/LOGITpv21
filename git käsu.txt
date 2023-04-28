@@ -6,3 +6,4 @@ git clone https://github.com/IrinaMerkulova/LOGITpv21.git
 cd LOGITpv21
 git branch Maksim
 git checkout Maksim
+git status
