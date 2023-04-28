@@ -70,6 +70,6 @@ veeru muutmine / lisame / eemaldamine - изменение/добавление/
 
 tabeli loomine / luua tabelid -CREATE TABLE - создание таблиц / создание таблиц
 
-primaarne võti - Primaar Võti
+primaarne võti - Primaar Võti - основной ключ
 
 välisvõti - Foreign Key
