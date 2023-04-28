@@ -28,3 +28,12 @@ Algus_kuupaev date not null,
 Lopp_kuupaev date not null,
 foreign key (Raamat) references Raamatud(Raamatu_kood)
 );
+
+CREATE TABLE Klient (
+Kliendi_kood int primary key AUTO_INCREMENT,
+Nimi varchar(30) not null,
+Perenimi varchar(30) not null,
+Isikukood varchar(30) not null,
+Aadress varchar(30) not null,
+foreign key (Kliendi_kood) references Laenutus(Laenutus_kood)
+);
