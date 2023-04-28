@@ -30,4 +30,12 @@ foreign key (keel) references keel(keel_kood),
 hind decimal(5,2)
 );
 
+create table laenutus(
+laenutuse_kood int primary key AUTO_INCREMENT,
+klient int,
+foreign key (klient) references klient(kliendi_kood),
+raamat int,
+foreign key (raamat) references raamatud(raamatu_kood),
+algus_kuupaev date,
+lopp_kuupaev date);
 
