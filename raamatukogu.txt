@@ -27,3 +27,14 @@ Nimi varchar(10) not null,
 Perenimi varchar(10) not null,
 Isikukood varchar(15) not null,
 Aadress varchar(15) not null);
+
+
+create table Laenutus (
+Laenutuse_kood int primary key identity(1,1),
+Klient int,
+Raamat int,
+Algus_kuupaev date,
+Lopp_kuupaev date,
+foreign key (Klient) references Klient(Kliendi_kood),
+foreign key (Raamat) references Raamatud(Raamatu_kood)
+)
