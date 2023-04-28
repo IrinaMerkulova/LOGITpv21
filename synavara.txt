@@ -53,7 +53,7 @@ veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - тип данных
+andmetüüp - тип данных*
 
 arvtüüp - тип числа
 
