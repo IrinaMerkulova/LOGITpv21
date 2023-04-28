@@ -48,3 +48,8 @@ alter table raamatud add trukikoda int;
 select * from raamatud;
 alter table raamatud add constraint fk_trukikoda
 foreign key (trukikoda) references trukikoda(trukikoda_kood)
+
+create table linn(
+linn_kood int primary key AUTO_INCREMENT,
+linnanimi varchar(20) not null,
+);
