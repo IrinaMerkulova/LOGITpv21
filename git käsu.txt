@@ -7,3 +7,4 @@ cd LOGITpv21
 git branch Maksim
 git checkout Maksim
 git status
+git add .
