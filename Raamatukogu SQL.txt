@@ -50,3 +50,10 @@ foreign key (Klient) references Klient(Kliendi_kood),
 foreign key (Raamat) references Raamatud(Raamatu_kood)
 );
  
+
+
+
+CREATE TABLE Linn(
+LinnID int PRIMARY KEY AUTO_INCREMENT,
+Linnanimi varchar(30) UNIQUE
+);
