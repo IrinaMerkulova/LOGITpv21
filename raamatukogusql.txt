@@ -43,3 +43,8 @@ create table trukikoda(
 trukikoda_kood int primary key AUTO_INCREMENT,
 nimi varchar(30) not null,
 );
+
+alter table raamatud add trukikoda int;
+select * from raamatud;
+alter table raamatud add constraint fk_trukikoda
+foreign key (trukikoda) references trukikoda(trukikoda_kood)
