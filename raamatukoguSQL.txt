@@ -42,3 +42,13 @@ LinnID int primary key AUTO_INCREMENT,
 linnanimi varchar(30) not null);
 INSERT INTO linn(linnanimi)
 VALUES ("Tallinn")
+
+***
+CREATE TABLE Ostukorv (
+Ostu_ID int primary key AUTO_INCREMENT,
+Raamatu_kood int,
+LinnID int,
+Kuupäev int,
+Kogus int,
+foreign key (Raamatu_kood) references Raamatud(Raamatu_kood)
+foreign key (LinnID) references Linn(LinnID));
