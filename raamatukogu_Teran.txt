@@ -20,3 +20,13 @@ Keel int,
 Hind decimal(5,2),
 foreign key (Keel) references Keel(Keel_kood),
 foreign key (Autor) references Autorid(Autori_kood)
+
+CREATE TABLE Ostukorv( 
+Ostu_ID int primary key AUTO_INCREMENT,
+RaamatID int,
+kuupaev date, 
+Kogus int,
+LinnID int,
+foreign key (LinnID) references liin(linn_ID),
+foreign key (RaamatID) REFERENCES raamatud(Raamatu_kood)
+);
