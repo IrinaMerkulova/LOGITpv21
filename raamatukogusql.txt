@@ -39,3 +39,7 @@ foreign key (raamat) references raamatud(raamatu_kood),
 algus_kuupaev date,
 lopp_kuupaev date);
 
+create table trukikoda(
+trukikoda_kood int primary key AUTO_INCREMENT,
+nimi varchar(30) not null,
+);
