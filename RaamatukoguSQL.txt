@@ -1,11 +1,20 @@
 create table Autorid (
-Autori_kood INT PRIMARY KEY identity(1,1),
+Autori_kood INT PRIMARY KEY AUTO_INCREMENT,
 Nimi varchar(25) not null,
 Perenimi varchar(30) not null,
 Sunniaasta date,
 Sugu varchar(30) not null);
 
 create table Keel (
-Keel_kood INT PRIMARY KEY identity(1,1),
-Keel varchar(30) not null,
-);
+Keel_kood INT PRIMARY KEY AUTO_INCREMENT,
+Keel varchar(30) not null);
+
+create table Raamatud (
+Raamatu_kood INT PRIMARY KEY AUTO_INCREMENT,
+Nimetus varchar(25) not null,
+V_aasta date,
+Hind float,
+Autor int,
+Keel int,
+foreign key (Autor) references Autorid(Autori_kood),
+foreign key (Keel) references Keel(Keel_kood));
