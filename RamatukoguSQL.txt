@@ -9,3 +9,13 @@ CREATE TABLE Keel (
 Keel_kood int primary key AUTO_INCREMENT,
 Keel varchar(30) not null);
 
+CREATE TABLE Raamatud (
+Raamatu_kood int primary key AUTO_INCREMENT,
+Nimetus varchar(30) not null,
+Autor int not null,
+V_aasta int not null,
+Keel int not null,
+Hind int not null,
+foreign key (Autor) references Autorid(Autori_kood),
+foreign key (Keel) references Keel(Keel_kood)
+);
