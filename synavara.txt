@@ -63,7 +63,7 @@ loogiline tüüp - логический тип*
 
 kuupäev/aeg - дата/время*
 
-tabeli eemaldamine -DROP TABLE - удалить таблицу
+tabeli eemaldamine -DROP TABLE - удалить таблицу*
 
 veeru muutmine / lisame / eemaldamine - изменение столбца / добавление / удаление
 
