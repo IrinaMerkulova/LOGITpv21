@@ -37,3 +37,16 @@ Perenimi varchar(30),
 Isikukood Bigint,
 Aadress varchar(50)
 );
+
+
+
+CREATE TABLE Laenutus(
+Laenutuse_kood int PRIMARY KEY AUTO_INCREMENT,
+Klient int,
+Raamat int,
+Algus_kuupaev date,
+Lopp_kuupaev date,
+foreign key (Klient) references Klient(Kliendi_kood),
+foreign key (Raamat) references Raamatud(Raamatu_kood)
+);
+ 
