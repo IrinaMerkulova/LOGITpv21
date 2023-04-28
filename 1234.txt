@@ -1,0 +1,11 @@
+C:\Users\opilane>cd Desktop
+C:\Users\opilane\Desktop>git config --global user.mane "Zhan Gerke"
+C:\Users\opilane\Desktop>git clone https://github.com/IrinaMerkulova/LOGITpv21.git
+C:\Users\opilane\Desktop>cd LOGITpv21
+C:\Users\opilane\Desktop\LOGITpv21>git branch ZhanG
+C:\Users\opilane\Desktop\LOGITpv21>git checkout ZhanG
+C:\Users\opilane\Desktop\LOGITpv21>git status
+C:\Users\opilane\Desktop\LOGITpv21>git add . - добовляю комент
+C:\Users\opilane\Desktop\LOGITpv21>git commit -a -m "nimi on lisatud" - комент создаю
+C:\Users\opilane\Desktop\LOGITpv21>git push - выкинет команду
+C:\Users\opilane\Desktop\LOGITpv21>git push --set-upstream origin ZhanG
