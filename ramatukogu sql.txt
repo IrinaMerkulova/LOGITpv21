@@ -24,3 +24,12 @@ foreign key (Keel) references Keel(Keel_kood),
 foreign key (Autor) references Autorid(Autori_kood));
 
 INSERT INTO `raamatud` (`Raamatu_kood`, `Nimetus`, `Autor`, `V_aasta`, `Keel`, `Hind`) VALUES (NULL, 'Lill', '1', '2020', '2', '2.50');
+
+CREATE TABLE Klient (
+Kliendi_kood int primary key AUTO_INCREMENT,
+Nimi varchar (20)not null,
+Perenimi varchar (20)not null,
+Isikukood varchar (11)not null,
+Aadress varchar (20)not null);
+
+INSERT INTO `klient` (`Kliendi_kood`, `Nimi`, `Perenimi`, `Isikukood`, `Aadress`) VALUES (NULL, 'Albert ', 'Avilov', '12345678901', 'Tallinn');
