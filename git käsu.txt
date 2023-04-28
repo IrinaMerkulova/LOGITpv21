@@ -8,3 +8,5 @@ git branch Maksim
 git checkout Maksim
 git status
 git add .
+git status
+git push
