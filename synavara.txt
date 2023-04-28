@@ -64,7 +64,7 @@ loogiline tüüp - логическое значение
 
 kuupäev/aeg - день/время
 
-tabeli eemaldamine -DROP TABLE 
+tabeli eemaldamine -DROP TABLE - удаление таблицы
 
 veeru muutmine / lisame / eemaldamine
 
