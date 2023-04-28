@@ -11,3 +11,12 @@ IDautorid int,
 foreign key (IDautorid) references Autorid(IDautorid)
 );
 
+CREATE TABLE Raamatud (
+IDraamatud int primary key identity(1,1),
+Nimetus varchar(30) not null,
+Autor varchar(20) not null,
+V_aasta date,
+R_keel varchar(20) not null,
+Hind decimal(5,2),
+foreign key (IDautorid) references Autorid(IDautorid)
+);
