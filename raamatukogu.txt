@@ -1,0 +1,6 @@
+CREATE TABLE Autorid (
+Autori_kood int PRIMARY key AUTO_INCREMENT,
+Nimi varchar(20) not null,
+Perenimi varchar(20) not null,
+Synniaasta date,
+Sugu varchar(10) not null);
