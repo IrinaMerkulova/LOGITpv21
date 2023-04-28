@@ -20,3 +20,16 @@ R_keel varchar(20) not null,
 Hind decimal(5,2),
 foreign key (IDautorid) references Autorid(IDautorid)
 );
+
+CREATE TABLE Laenutus (
+IDlaenutus int primary key AUTO_INCREMENT,
+Klient varchar(30) not null,
+Raamat varchar(20) not null,
+A_kuupaev date,
+L_kuupaev date,
+IDautorid int,
+IDraamatud int,
+foreign key (IDautorid) references Autorid(IDautorid),
+foreign key (IDraamatud) references Raamatud(IDraamatud)
+);
+
