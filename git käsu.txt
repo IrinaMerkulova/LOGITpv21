@@ -1,3 +1,4 @@
 git käsu:
 
 cd desktop
+git config --global user.name "Maksim.Berezovski"
