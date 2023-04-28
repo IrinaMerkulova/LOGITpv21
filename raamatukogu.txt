@@ -41,3 +41,15 @@ Isikukood varchar(30) not null,
 Aadress varchar(30) not null,
 foreign key (IDklient) references Laenutus(IDlaenutus)
 );
+
+CREATE TABLE OstuKrv (
+IDostu int primary key AUTO_INCREMENT,
+IDautorid int,
+foreign key (IDautorid) references Autorid(IDautorid),
+kuupaev date,
+kogus varchar(20) not null,
+Hind decimal(5,2),
+IDlinn int,
+foreign key (IDlinn) references Linn(IDlinn)
+);
+
