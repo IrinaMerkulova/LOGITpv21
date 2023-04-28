@@ -26,11 +26,11 @@ muuda - изменить
 
 --------------
 
-andmebaas
+andmebaas - база данных
 
 andmebaasihaldusüsteem - СУБД
 
-versioonihaldussüsteem -... /gitHub
+versioonihaldussüsteem - система управления версиями/gitHub
 
 väärtus - значение
 
@@ -54,19 +54,19 @@ veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - 
+andmetüüp - Тип данных
 
-arvtüüp - 
+arvtüüp - Тип чисел
 
-sümboltüüp - 
+sümboltüüp - Тип символов
 
-loogiline tüüp
+loogiline tüüp - Логический тип
 
-kuupäev/aeg
+kuupäev/aeg - Число/время
 
-tabeli eemaldamine -DROP TABLE 
+tabeli eemaldamine - DROP TABLE - Удалить таблицу
 
-veeru muutmine / lisame / eemaldamine
+veeru muutmine / lisame / eemaldamine - Изменение столбика / Добавление / Удаление
 
 tabeli loomine / luua tabelid -CREATE TABLE
 
