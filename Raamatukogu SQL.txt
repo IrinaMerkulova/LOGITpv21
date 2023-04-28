@@ -7,3 +7,10 @@ Sugu varchar(10)
 ); 
 
 INSERT INTO `autorid` (`Autori_kood`, `Nimi`, `Perenimi`, `Sunniaasta`, `Sugu`) VALUES (NULL, 'Aleksei', 'Tolstoi', '1883-01-10', 'Mees');
+
+
+
+CREATE TABLE Keel(
+Keel_kood int PRIMARY KEY AUTO_INCREMENT,
+Keel varchar(30) UNIQUE
+);
