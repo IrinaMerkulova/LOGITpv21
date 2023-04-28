@@ -1,0 +1,35 @@
+git käsud
+
+git config --global user.name "Evi Kerve"
+
+clone https://github.com/IrinaMerkulova/LOGITpv21.git
+
+cd LOGITpv21
+
+git branch EviK
+
+git checkout EviK
+
+git status
+
+git add .
+
+git commit -a -m "Evi Kerve"
+
+git push
+
+git push --set-upstream origin EviK
+
+git commit -a -m "kutsuda on tõlgitud"
+git commit -a -m "muuda on tõlgitud"
+git commit -a -m "lisa on tõlgitud"
+git commit -a -m "sisesta on tõlgitud"
+git commit -a -m "lohista on tõlgitud"
+git commit -a -m "kutsuta on tõlgitud"
+git commit -a -m "kuva on tõlgitud"
+git commit -a -m "arvtüüp on tõlgitud"
+git commit -a -m "andmetüüp on tõlgitud"
+git commit -a -m "arvtüüp on tõlgitud"
+git commit -a -m "sümboltüüp on tõlgitud"
+
+git add .
