@@ -20,3 +20,10 @@ Hind decimal(5,2),
 foreign key (Autor) references Autorid(Autori_kood),
 foreign key (Keel) references Keel(Keel_kood)
 );
+
+create table Klient (
+Kliendi_kood int primary key identity(1,1),
+Nimi varchar(10) not null,
+Perenimi varchar(10) not null,
+Isikukood varchar(15) not null,
+Aadress varchar(15) not null);
