@@ -1,4 +1,6 @@
-cd Desktop
+Timur Han Bazli
+
+cd Desktop - Liigume töölauale
 
 git config --global user.name "Timur Han Bazli"
 
@@ -13,4 +15,3 @@ git status
 git add .
 
 git commit -a -m "toiming, mis sooritati"
-
