@@ -5,10 +5,12 @@ perenimi varchar(20) not null,
 sünniaasta char(4) not null,
 sugu varchar(10) not null
 );
+
 create table keel(
 keel_kood int primary key AUTO_INCREMENT,
 keel varchar(20) not null unique
 );
+
 create table klient(
 kliendi_kood int primary key AUTO_INCREMENT,
 nimi varchar(20) not null,
@@ -16,4 +18,16 @@ perenimi varchar(20) not null,
 isikukood char(12) not null,
 aadress varchar(30) not null
 );
+
+create table raamatud (
+raamatu_kood int primary key AUTO_INCREMENT,
+nimetus varchar(40) not null,
+Autor int,
+foreign key (Autor) references Autorid(Autori_kood),
+V_aasta char(4) not null,
+keel int,
+foreign key (keel) references keel(keel_kood),
+hind decimal(5,2)
+);
+
 
