@@ -12,7 +12,7 @@ Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
 kustuta - удалить*
 
-käivita - запустить
+käivita - запустить*
 
 lohista - тяни, тащи / lohista faili
 
