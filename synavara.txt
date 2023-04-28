@@ -1,31 +1,31 @@
 Salvesta - сохрани
 rtdstr
 
-Lülita sisse - включи
+#Lülita sisse - включи
 
-Lülita välja - выключи
+#Lülita välja - выключи
 
 Laadi alla - скачай / laadi alla faili
 
-Laadi üles - закачай - загрузи / faili laadi üles serverisse
+#Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
-kustuta
+kustuta - удалить
 
-käivita
+#käivita - Перейти к
 
-lohista - тяни, тащи / lohista faili
+#lohista - тяни, тащи / lohista faili
 
-sisesta - введи / вставь
+#sisesta - введи / вставь
 
-lisa -
+lisa - добавить
 
-kuva - отобрази
+#kuva - отобрази
 
-muuda -
+muuda - изменить 
 
 --------------
 
-andmebaas
+andmebaas - База данных
 
 andmebaasihaldusüsteem - СУБД
 
@@ -33,42 +33,42 @@ versioonihaldussüsteem -... /gitHub
 
 väärtus - значение
 
-tabel, rida, veerg
+#tabel, rida, veerg
 
-kirje / kirjed -запись
+#kirje / kirjed -запись
 
-väli / väljad - поля
+#väli / väljad - поля
 
 lause = päring - предложение / запрос
 
-piirang - ограничение / UNIQUE, NOT NULL, PRIMARY KEY, FOREIGN KEY, CHECK
+#piirang - ограничение / UNIQUE, NOT NULL, PRIMARY KEY, FOREIGN KEY, CHECK
 
 tulemus - результат
 
-seos - связь
+#seos - связь
 
-seosta tabelid - связать таблицы
+#seosta tabelid - связать таблицы
 
-veateade - сообщение об ошибке
+#veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - 
+andmetüüp - тип даннах
 
-arvtüüp - 
+arvtüüp - тип числа
 
-sümboltüüp -
+sümboltüüp - тип символа
 
-loogiline tüüp
+loogiline tüüp - логический тип
 
-kuupäev/aeg
+kuupäev/aeg - число время
 
-tabeli eemaldamine -DROP TABLE 
+#tabeli eemaldamine -DROP TABLE 
 
-veeru muutmine / lisame / eemaldamine
+#veeru muutmine / lisame / eemaldamine - изменить столбец / добавить / удалить
 
-tabeli loomine / luua tabelid -CREATE TABLE
+#tabeli loomine / luua tabelid -CREATE TABLE
 
-primaarne võti - Primaar Võti
+#primaarne võti - Primaar Võti - #primary key - Первичный ключ
 
-välisvõti - Foreign Key
+#välisvõti - Foreign Key
