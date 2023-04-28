@@ -1,0 +1,6 @@
+CREATE TABLE Keel (
+IDkell int primary key AUTO_INCREMENT,
+Keel varchar(20) not null,
+IDautorid int,
+foreign key (IDautorid) references Autorid(IDautorid)
+);
