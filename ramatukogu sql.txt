@@ -12,3 +12,15 @@ Keel_kood int primary key AUTO_INCREMENT,
 Keel varchar (20)not null);
 
 INSERT INTO `keel` (`Keel_kood`, `Keel`) VALUES (NULL, 'Eng');
+
+CREATE TABLE Raamatud (
+Raamatu_kood int primary key AUTO_INCREMENT,
+Nimetus varchar (20)not null,
+Autor int,
+V_aasta varchar (20)not null,
+Keel Int,
+Hind decimal(5,2),
+foreign key (Keel) references Keel(Keel_kood),
+foreign key (Autor) references Autorid(Autori_kood));
+
+INSERT INTO `raamatud` (`Raamatu_kood`, `Nimetus`, `Autor`, `V_aasta`, `Keel`, `Hind`) VALUES (NULL, 'Lill', '1', '2020', '2', '2.50');
