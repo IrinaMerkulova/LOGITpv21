@@ -10,3 +10,8 @@ git status
 git add .
 git status
 git push
+git push --set-upstream origin Maksim
+git push --set-upstream origin Maksim
+git commit -a -m "Uus Fail on lisatud"
+git config --global user.name "Maksim Berezovski"
+git push
