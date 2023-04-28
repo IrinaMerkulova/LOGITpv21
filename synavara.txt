@@ -72,4 +72,4 @@ tabeli loomine / luua tabelid -CREATE TABLE - создание таблиц / с
 
 primaarne võti - Primaar Võti - основной ключ
 
-välisvõti - Foreign Key
+välisvõti - Foreign Key - внешний ключ
