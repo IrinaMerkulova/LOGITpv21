@@ -1,0 +1,3 @@
+git käsud 
+
+cd Desktop
