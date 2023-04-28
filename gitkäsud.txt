@@ -1,3 +1,19 @@
 git käsud 
 
 cd Desktop
+
+git config --global user.name "Albert Avilov"
+
+git clone https://github.com/IrinaMerkulova/LOGITpv21.git
+
+cd LOGITpv21
+
+git branch Albert
+
+git checkout Albert
+
+git status
+
+git add .
+
+git commit -a -m "nimi on lisatud"
