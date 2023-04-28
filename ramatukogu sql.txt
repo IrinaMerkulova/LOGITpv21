@@ -6,3 +6,9 @@ Sünniaasta varchar (20)not null,
 Sugu varchar (20)not null);
 
 INSERT INTO `autorid` (`Autori_kood`, `Nimi`, `Perenimi`, `Sünniaasta`, `Sugu`) VALUES (NULL, 'Nikita ', 'Djuzev', '2004', 'mees');
+
+CREATE TABLE Keel (
+Keel_kood int primary key AUTO_INCREMENT,
+Keel varchar (20)not null);
+
+INSERT INTO `keel` (`Keel_kood`, `Keel`) VALUES (NULL, 'Eng');
