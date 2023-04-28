@@ -10,19 +10,19 @@ Laadi alla - скачай / laadi alla faili
 
 Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
-kustuta
+kustuta - стереть
 
-käivita
+käivita - выполнить
 
 lohista - тяни, тащи / lohista faili
 
 sisesta - введи / вставь
 
-lisa -
+lisa - добавь
 
 kuva - отобрази
 
-muuda -
+muuda - измени
 
 --------------
 
@@ -54,22 +54,22 @@ veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - 
+andmetüüp - тип данных
 
-arvtüüp - 
+arvtüüp - числовой тип
 
-sümboltüüp -
+sümboltüüp - тип символа
 
-loogiline tüüp
+loogiline tüüp - логический тип
 
-kuupäev/aeg
+kuupäev/aeg -дата/время
 
-tabeli eemaldamine -DROP TABLE 
+tabeli eemaldamine -DROP TABLE - удоление таблицы
 
-veeru muutmine / lisame / eemaldamine
+veeru muutmine / lisame / eemaldamine - изменение/добавление/удоление колонны
 
-tabeli loomine / luua tabelid -CREATE TABLE
+tabeli loomine / luua tabelid -CREATE TABLE -создать таблицу
 
-primaarne võti - Primaar Võti
+primaarne võti - Primaar Võti - первичный ключ
 
-välisvõti - Foreign Key
+välisvõti - Foreign Key - вторичный ключ
