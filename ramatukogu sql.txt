@@ -43,3 +43,9 @@ Lõpp_kuupäev varchar(30)not null);
 
 
 INSERT INTO `laenutus` (`Laenutuse_kood`, `Klient`, `Raamat`, `Algus_kuupäev`, `Lõpp_kuupäev`) VALUES (NULL, '1', '1', '2010-10-05', '2010-10-06');
+
+CREATE TABLE Linn (
+Linn_kood int primary key AUTO_INCREMENT,
+Linnanimi varchar (20)not null);
+
+INSERT INTO `linn` (`Linn_kood`, `Linnanimi`) VALUES (NULL, 'Tallinn');
