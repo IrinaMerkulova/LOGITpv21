@@ -4,3 +4,8 @@ Nimi varchar(30),
 Perenimi varchar(30),
 Sünniaasta date,
 Sugu varchar(30));
+
+CREATE TABLE Keel (
+Keel_kood int primary AUTO_INCREMENT,
+Keel varchar(30) not null);
+
