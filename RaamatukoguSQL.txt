@@ -1,0 +1,6 @@
+create table Autorid (
+Autori_kood INT PRIMARY KEY identity(1,1),
+Nimi varchar(25) not null,
+Perenimi varchar(30) not null,
+Sunniaasta date,
+Sugu varchar(30) not null);
