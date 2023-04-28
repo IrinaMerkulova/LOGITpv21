@@ -39,7 +39,7 @@ kirje / kirjed -запись*
 
 väli / väljad - поля
 
-lause = päring - предложение / запрос
+lause = päring - предложение / запрос*
 
 piirang - ограничение / UNIQUE, NOT NULL, PRIMARY KEY, FOREIGN KEY, CHECK
 
