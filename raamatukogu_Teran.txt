@@ -30,3 +30,8 @@ LinnID int,
 foreign key (LinnID) references liin(linn_ID),
 foreign key (RaamatID) REFERENCES raamatud(Raamatu_kood)
 );
+
+CREATE TABLE liin( 
+linn_id int primary key AUTO_INCREMENT,
+linnanimi varchar(20)
+);
