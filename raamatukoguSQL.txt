@@ -46,17 +46,17 @@ Aadress varchar(30) not null,
 foreign key (Pere_kood) references Klient(Kliendi_kood)
 );
 
+CREATE TABLE linn(
+linnID int primary key AUTO_INCREMENT,
+linnanimi varchar(30) not null
+);
+
 CREATE TABLE Ostukorv (
 RaamatID int primary key AUTO_INCREMENT,
 Ostu_ID varchar(30) not null,
 Kuupaev varchar(30) not null,
 Kogus varchar(30) not null,
 linnID int not null,
-foreign key (RaamatID) references raamatud(Raamatu_kood)
-);
-
-CREATE TABLE linn (
-linnaID int primary key AUTO_INCREMENT,
-linnanimi varchar(30) not null,
-foreign key (linnaID) references raamatud(linnID)
+foreign key (RaamatID) references raamatud(Raamatu_kood),
+foreign key (linnID) references linn(linnID)
 );
