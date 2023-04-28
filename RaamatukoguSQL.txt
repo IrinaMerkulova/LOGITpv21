@@ -37,3 +37,7 @@ Isikukood varchar(30) not null,
 Aadress varchar(30) not null
 foreign key (Kliendi_kood) references Laenutus(Laenutus_kood)
 );
+
+CREATE TABLE linn (
+Idlinn int primary key identity(1,1),
+linn varchar(30) not null);
