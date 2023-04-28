@@ -4,3 +4,8 @@ Nimi varchar(25) not null,
 Perenimi varchar(30) not null,
 Sunniaasta date,
 Sugu varchar(30) not null);
+
+create table Keel (
+Keel_kood INT PRIMARY KEY identity(1,1),
+Keel varchar(30) not null,
+);
