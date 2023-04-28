@@ -60,7 +60,7 @@ arvtüüp - тип чисел
 
 sümboltüüp - тип символа
 
-loogiline tüüp
+loogiline tüüp - логическое значение
 
 kuupäev/aeg
 
