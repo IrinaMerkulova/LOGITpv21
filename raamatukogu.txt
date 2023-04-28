@@ -33,3 +33,11 @@ foreign key (IDautorid) references Autorid(IDautorid),
 foreign key (IDraamatud) references Raamatud(IDraamatud)
 );
 
+CREATE TABLE Klient (
+IDklient int primary key AUTO_INCREMENT,
+Nimi varchar(30) not null,
+Perenimi varchar(30) not null,
+Isikukood varchar(30) not null,
+Aadress varchar(30) not null,
+foreign key (IDklient) references Laenutus(IDlaenutus)
+);
