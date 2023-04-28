@@ -65,7 +65,7 @@ kuupäev/aeg - дата/время*
 
 tabeli eemaldamine -DROP TABLE - удалить таблицу*
 
-veeru muutmine / lisame / eemaldamine - изменение столбца / добавление / удаление
+veeru muutmine / lisame / eemaldamine - изменение столбца / добавление / удаление*
 
 tabeli loomine / luua tabelid -CREATE TABLE - создание таблицы / создание таблиц
 
