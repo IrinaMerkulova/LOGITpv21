@@ -58,7 +58,7 @@ andmetüüp - тип данных
 
 arvtüüp - числовой тип
 
-sümboltüüp -
+sümboltüüp -тип символа
 
 loogiline tüüp
 
