@@ -38,3 +38,6 @@ Aadress varchar(30) not null,
 foreign key (Kliendi_kood) references Laenutus(Laenutus_kood)
 );
 
+CREATE TABLE Linn (
+Linn_ID int primary key AUTO_INCREMENT,
+Linn_Nimi varchar(30) not null);
