@@ -37,3 +37,11 @@ Isikukood varchar(30) not null,
 Aadress varchar(30) not null,
 foreign key (Kliendi_kood) references Laenutus(Laenutus_kood)
 );
+
+CREATE TABLE Pere (
+Pere_kood int primary key AUTO_INCREMENT,
+Nimi_Abikaasa varchar(30) not null,
+Isikukood varchar(30) not null,
+Aadress varchar(30) not null,
+foreign key (Pere_kood) references Klient(Kliendi_kood)
+);
