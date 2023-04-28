@@ -10,23 +10,23 @@ Laadi alla - скачай / laadi alla faili
 
 Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
-kustuta
+kustuta - Удалить, стиреть, 
 
-käivita
+käivita - Запустить, включить, активировать
 
 lohista - тяни, тащи / lohista faili
 
 sisesta - введи / вставь
 
-lisa -
+lisa - Приложение 
 
 kuva - отобрази
 
-muuda -
+muuda - Изменить, поменять, редактировать 
 
 --------------
 
-andmebaas
+andmebaas - Датабаза
 
 andmebaasihaldusüsteem - СУБД
 
@@ -54,15 +54,15 @@ veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - 
+andmetüüp - Тип данных
 
-arvtüüp - 
+arvtüüp - Числовой тип 
 
-sümboltüüp -
+sümboltüüp - Символический тип
 
-loogiline tüüp
+loogiline tüüp - Логический тип
 
-kuupäev/aeg
+kuupäev/aeg - дата/время
 
 tabeli eemaldamine -DROP TABLE 
 
