@@ -41,3 +41,14 @@ foreign key (Kliendi_kood) references Laenutus(Laenutus_kood)
 CREATE TABLE Linn (
 Linn_ID int primary key AUTO_INCREMENT,
 Linn_Nimi varchar(30) not null);
+
+CREATE TABLE Ostukorv (
+Ostukorv_id int primary key AUTO_INCREMENT,
+Raamat_ID int not null,
+kuupaev date not null,
+kogus int not null,
+Linn_ID int not null,
+foreign key (Raamat_ID) references Raamatud(Raamatud_kood)
+foreign key (Linn_ID) references Linn(Linn_ID)
+);
+
