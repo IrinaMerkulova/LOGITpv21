@@ -30,7 +30,7 @@ andmebaas
 
 andmebaasihaldusüsteem - СУБД
 
-versioonihaldussüsteem -... /gitHub
+versioonihaldussüsteem - система контроля версий /gitHub
 
 väärtus - значение
 
