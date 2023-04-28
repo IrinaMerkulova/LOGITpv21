@@ -1,4 +1,5 @@
 Salvesta - сохрани
+rtdstr
 
 Lülita sisse - включи
 
