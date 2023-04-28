@@ -1,0 +1,12 @@
+git käsud:
+
+cd desktop
+git config --global user.name 'Pilipets Krisitna' - change name
+git clone https://github.com/irinamerkulova/logitpv21.git
+cd logitpv21 
+git branch KristinaP
+git checkout kristinap
+git status
+git add .
+git commit -a -m "nimi on lisatud"
+git push --set-upstream origin kristinap
