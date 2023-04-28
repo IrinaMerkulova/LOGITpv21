@@ -1,0 +1,11 @@
+git käsud:
+cd Dekstop
+git config --global user.name "Vadim Zakablutski"
+git clone https://github.com/IrinaMerkulova/LOGITpv21.git
+cd LOGITpv21
+git branch VadimZ
+git checkout VadimZ
+git status
+git add .
+git commit -a -m "nimi on lisatud"
+git push --set-upstream origin VadimZ
