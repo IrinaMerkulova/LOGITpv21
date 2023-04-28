@@ -1,0 +1,14 @@
+cd desktop
+git clone
+cd LOGITpv21
+git branch Robert
+git checkout Robert
+git status
+git config --global user.name "Robert Kaasik"
+После добавление какого-то текста в txt файл надо разрешить
+git status
+git add .
+git status
+git commit -a -m "name on txt"
+git push
+git push --set-upstream origin Rober
