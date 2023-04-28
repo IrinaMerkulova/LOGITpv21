@@ -36,3 +36,9 @@ Perenimi varchar(30) not null,
 Isikukood varchar(30) not null,
 Aadress varchar(30) not null
 foreign key (Kliendi_kood) references Laenutus(Laenutus_kood));
+
+CREATE TABLE Linn(
+LinnID int primary key AUTO_INCREMENT,
+linnanimi varchar(30) not null);
+INSERT INTO linn(linnanimi)
+VALUES ("Tallinn")
