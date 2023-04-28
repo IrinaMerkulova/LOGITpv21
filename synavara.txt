@@ -26,7 +26,7 @@ muuda - изменять
 
 --------------
 
-andmebaas
+andmebaas - база данных
 
 andmebaasihaldusüsteem - СУБД
 
