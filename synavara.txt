@@ -26,7 +26,7 @@ muuda - измени
 
 --------------
 
-andmebaas
+andmebaas- база даннх
 
 andmebaasihaldusüsteem - СУБД
 
