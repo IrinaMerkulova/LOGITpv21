@@ -35,3 +35,24 @@ CREATE TABLE liin(
 linn_id int primary key AUTO_INCREMENT,
 linnanimi varchar(20)
 );
+
+use AutoridTeran;
+CREATE TABLE Laenutus( 
+Laenutuse_kood int primary key AUTO_INCREMENT,
+Klient int,
+Raamat int, 
+Algus_kuupaev date,
+Lopp_kuupaev date,
+foreign key (Klient) references Klient(Kliendi_kood),
+foreign key (Raamat) references Raamatud(Raamatu_kood)
+);
+
+CREATE TABLE Laenutus( 
+Laenutuse_kood int primary key iAUTO_INCREMENT,
+Klient int,
+Raamat int, 
+Algus_kuupaev date,
+Lopp_kuupaev date,
+foreign key (Klient) references Klient(Kliendi_kood),
+foreign key (Raamat) references Raamatud(Raamatu_kood)
+);
