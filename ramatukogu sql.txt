@@ -33,3 +33,13 @@ Isikukood varchar (11)not null,
 Aadress varchar (20)not null);
 
 INSERT INTO `klient` (`Kliendi_kood`, `Nimi`, `Perenimi`, `Isikukood`, `Aadress`) VALUES (NULL, 'Albert ', 'Avilov', '12345678901', 'Tallinn');
+
+CREATE TABLE Laenutus (
+Laenutuse_kood int primary key AUTO_INCREMENT,
+Klient int,
+Raamat int,
+Algus_kuupäev varchar(30)not null,
+Lõpp_kuupäev varchar(30)not null);
+
+
+INSERT INTO `laenutus` (`Laenutuse_kood`, `Klient`, `Raamat`, `Algus_kuupäev`, `Lõpp_kuupäev`) VALUES (NULL, '1', '1', '2010-10-05', '2010-10-06');
