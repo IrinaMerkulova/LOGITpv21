@@ -34,7 +34,7 @@ versioonihaldussüsteem -... /gitHub
 
 väärtus - значение
 
-tabel, rida, veerg
+tabel, rida, veerg - столбец, ряд, строка
 
 kirje / kirjed -запись
 
