@@ -38,3 +38,9 @@ Lopp_kuupaev date,
 foreign key (Klient) references Klient(Kliendi_kood),
 foreign key (Raamat) references Raamatud(Raamatu_kood)
 )
+
+Create table Linn(
+LinnID int primary key auto_increment,
+Linnanimi varchar(20) Unique
+);
+
