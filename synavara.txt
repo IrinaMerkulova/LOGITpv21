@@ -62,7 +62,7 @@ sümboltüüp -тип символа
 
 loogiline tüüp - логический тип
 
-kuupäev/aeg
+kuupäev/aeg - число/год
 
 tabeli eemaldamine -DROP TABLE 
 
