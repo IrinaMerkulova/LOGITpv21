@@ -55,3 +55,8 @@ linnID int not null,
 foreign key (RaamatID) references raamatud(Raamatu_kood)
 );
 
+CREATE TABLE linn (
+linnaID int primary key AUTO_INCREMENT,
+linnanimi varchar(30) not null,
+foreign key (linnaID) references raamatud(linnID)
+);
