@@ -1,0 +1,8 @@
+create table autorid(
+autori_kood int primary key AUTO_INCREMENT,
+nimi varchar(20) not null,
+perenimi varchar(20) not null,
+sünniaasta char(4) not null,
+sugu varchar(10) not null
+);
+
