@@ -19,3 +19,12 @@ Hind int not null,
 foreign key (Autor) references Autorid(Autori_kood),
 foreign key (Keel) references Keel(Keel_kood)
 );
+
+CREATE TABLE Laenutus (
+Laenutus_kood int primary key identity(1,1),
+Klient varchar(30) not null,
+Raamat int,
+Algus_kuupaev date not null,
+Lopp_kuupaev date not null,
+foreign key (Raamat) references Raamatud(Raamatu_kood)
+);
