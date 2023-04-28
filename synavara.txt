@@ -10,19 +10,19 @@ Laadi alla - скачай / laadi alla faili
 
 Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
-kustuta
+kustuta - удалить
 
-käivita
+käivita - запустить
 
 lohista - тяни, тащи / lohista faili
 
 sisesta - введи / вставь
 
-lisa -
+lisa - добавить
 
 kuva - отобрази
 
-muuda -
+muuda - изменить
 
 --------------
 
@@ -58,7 +58,7 @@ andmetüüp -
 
 arvtüüp - 
 
-sümboltüüp -
+sümboltüüp - 
 
 loogiline tüüp
 
