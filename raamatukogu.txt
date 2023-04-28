@@ -44,3 +44,12 @@ LinnID int primary key auto_increment,
 Linnanimi varchar(20) Unique
 );
 
+create table Ostukorv(
+Ostu_ID int primary key auto_increment,
+RaamatID int,
+Kuupaev date,
+Kogus int,
+LinnID int,
+foreign key (RaamatID) references Raamatud(Raamatu_kood),
+foreign key (LinnID) references Linn(LinnID)
+);
