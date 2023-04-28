@@ -1,0 +1,13 @@
+git käsud:
+-- cd desktop - зайти на раб стол
+-- git clone https://github.com/IrinaMerkulova/LOGITpv21.git   - скачать папку на раб стол
+-- cd LOGITpv21 - зайти в папку
+
+-- git branch Nikita - создать ветку 
+-- git checkout Nikita - Посмотреть создалась ли ветка
+-- git status Посмотреть статус
+-- git config --global user.name "Nikita Djuzev" -Отправлять от своего имени
+
+-- git add. 
+-- git commit -a -m "primaarne võti on tõlgitud" - закомментировать
+-- git push --set-upstream origin Nikita - запушить на основну
