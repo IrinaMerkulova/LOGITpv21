@@ -12,3 +12,4 @@ git status
 git commit -a -m "name on txt"
 git push
 git push --set-upstream origin Rober
+git kasjud
