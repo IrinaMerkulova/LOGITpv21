@@ -9,4 +9,11 @@ create table keel(
 keel_kood int primary key AUTO_INCREMENT,
 keel varchar(20) not null unique
 );
+create table klient(
+kliendi_kood int primary key AUTO_INCREMENT,
+nimi varchar(20) not null,
+perenimi varchar(20) not null,
+isikukood char(12) not null,
+aadress varchar(30) not null
+);
 
