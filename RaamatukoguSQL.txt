@@ -18,3 +18,12 @@ Autor int,
 Keel int,
 foreign key (Autor) references Autorid(Autori_kood),
 foreign key (Keel) references Keel(Keel_kood));
+
+create table Ostukorv (
+Ostu_id INT PRIMARY KEY AUTO_INCREMENT,
+Raamat int,
+Hind float,
+Kogus int,
+Linn int,
+foreign key (Raamat) references raamatud(Raamatud_kood),
+foreign key (Linn) references linn(linn_id));
