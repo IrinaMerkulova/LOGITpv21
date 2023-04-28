@@ -1,0 +1,16 @@
+cd Desktop
+
+git config --global user.name "Timur Han Bazli"
+
+git clone https://github.com/IrinaMerkulova/LOGITpv21.git
+
+git branch TimurHanBazli
+
+git checkout TimurHanBazli
+
+git status
+
+git add .
+
+git commit -a -m "toiming, mis sooritati"
+
