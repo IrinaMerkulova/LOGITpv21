@@ -3,3 +3,5 @@ git käsu:
 cd desktop
 git config --global user.name "Maksim.Berezovski"
 git clone https://github.com/IrinaMerkulova/LOGITpv21.git
+cd LOGITpv21
+git branch Maksim
