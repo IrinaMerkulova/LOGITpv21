@@ -1,6 +1,13 @@
+CREATE TABLE Autorid (
+IDautorid int primary key AUTO_INCREMENT,
+Nimi varchar(30) not null,
+Perenimi varchar(30) not null,
+Sunniaasta date);
+
 CREATE TABLE Keel (
 IDkell int primary key AUTO_INCREMENT,
 Keel varchar(20) not null,
 IDautorid int,
 foreign key (IDautorid) references Autorid(IDautorid)
 );
+
