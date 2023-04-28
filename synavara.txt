@@ -66,7 +66,7 @@ kuupäev/aeg - дата/время
 
 tabeli eemaldamine -DROP TABLE - удаление стобца
 
-veeru muutmine / lisame / eemaldamine
+veeru muutmine / lisame / eemaldamine - изменение/добавление/удаление столбца
 
 tabeli loomine / luua tabelid -CREATE TABLE
 
