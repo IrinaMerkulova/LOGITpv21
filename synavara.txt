@@ -16,7 +16,7 @@ lohista - тяни, тащи / lohista faili
 
 sisesta - введи / вставь
 
-lisa -
+lisa - добавлять
 
 kuva - отобрази
 
@@ -52,9 +52,9 @@ veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - 
+andmetüüp - тип данных
 
-arvtüüp - 
+arvtüüp - числовой тип
 
 sümboltüüp -
 
@@ -71,3 +71,10 @@ tabeli loomine / luua tabelid -CREATE TABLE
 primaarne võti - Primaar Võti
 
 välisvõti - Foreign Key
+---------------------------
+
+
+
+
+
+
