@@ -81,3 +81,5 @@ Select veerg1, veerg2 from tableName
 Alter table tableName ADD column veerg1 type
 Alter table tableName DROP column veerg1 type
 Update tableName SET veerg1=...
+
+--19.05
