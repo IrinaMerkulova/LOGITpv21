@@ -73,3 +73,11 @@ tabeli loomine / luua tabelid -CREATE TABLE - создание таблицы
 primaarne võti - Primaar Võti - основной ключ
 
 välisvõti - Foreign Key - внешний ключ
+---------------------
+CREATE TABLE tableNimi(veerg1 type1, veerg2 type2...)
+INSERT INTO tableNimi(veerg1, veerg2) VALUES('', '')
+DELETE FROM tableNimi WHERE ....
+SELECT veerg1, veerg2 FROM tableName
+ALTER TABLE tableNimi ADD COLUMN veerg1 type
+ALTER TABLE tableNimi DROP COLUMN veerg1
+UPDATE tableNimi SET veerg1=...
