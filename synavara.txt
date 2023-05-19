@@ -12,21 +12,21 @@ Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
 kustuta - Удалить
 
-käivita
+käivita - запуск
 
 lohista - тяни, тащи / lohista faili
 
 sisesta - введи / вставь
 
-lisa -
+lisa - создать
 
 kuva - отобрази
 
-muuda -
+muuda - изменить
 
 --------------
 
-andmebaas
+andmebaas - ДБ
 
 andmebaasihaldusüsteem - СУБД
 
@@ -54,17 +54,17 @@ veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - 
+andmetüüp - Тип данных
 
-arvtüüp - 
+arvtüüp - Числительный тип
 
-sümboltüüp -
+sümboltüüp - Тип символов
 
 loogiline tüüp
 
-kuupäev/aeg
+kuupäev/aeg - время
 
-tabeli eemaldamine -DROP TABLE 
+tabeli eemaldamine - DROP TABLE 
 
 veeru muutmine / lisame / eemaldamine
 
@@ -73,3 +73,11 @@ tabeli loomine / luua tabelid -CREATE TABLE
 primaarne võti - Primaar Võti
 
 välisvõti - Foreign Key
+----------------------------
+Create table tabelName (veerg1 typ1, veerg2 type2, ....)
+Insert Into tableName (veerg1 typ1) Values ('', '')
+Delete from tableName where ...
+Select veerg1, veerg2 from tableName
+Alter table tableName ADD column veerg1 type
+Alter table tableName DROP column veerg1 type
+Update tableName SET veerg1=...
