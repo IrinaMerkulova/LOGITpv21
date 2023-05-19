@@ -81,3 +81,4 @@ SELECT veerg1, veerg2 FROM tableName
 ALTER TABLE tableNimi ADD COLUMN veerg1 type
 ALTER TABLE tableNimi DROP COLUMN veerg1
 UPDATE tableNimi SET veerg1=...
+---------------------
