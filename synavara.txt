@@ -72,3 +72,19 @@ kuupäev/aeg - число время
 #primaarne võti - Primaar Võti - #primary key - Первичный ключ
 
 #välisvõti - Foreign Key
+
+
+
+
+
+
+
+
+----------------------------------
+CREATE TABLE tabelnimi (veerg1 tyyp, veerg2 tyyp, ....)
+INSERT INTO tabelnimi (veerg1, veerg2) Values ('', '')
+DELETE FROM tabelnimi WHERE ....
+SELECT veerg1, veerg2 FROM tabelnimi
+ALTER TABEL tabelnimi ADD COLUMN veerg1 type
+ALTER TABEL tabelnimi DROP COLUMN veerg1
+UPDATE tableName SET veerg1=...
