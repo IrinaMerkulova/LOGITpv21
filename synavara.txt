@@ -73,3 +73,32 @@ tabeli loomine / luua tabelid -CREATE TABLE
 primaarne võti - Primaar Võti
 
 välisvõti - Foreign Key
+----------------------------
+CREATE TABLE tableName  (veerg1 type1, veerg2 type2, ...)
+INSERT INTO tableName (veerg1, veerg2) VALUES ('', '')
+DELETE FROM tableName WHERE ....
+SELECT  veerg1, veerg2 FROM tableName
+ALTER TABLE tableName ADD COLUMN veerg1 type
+ALTER TABLE tableName DROP COLUMN veerg1
+UPDATE tableName SET veerg1=...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
