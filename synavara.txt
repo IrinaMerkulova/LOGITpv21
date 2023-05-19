@@ -1,3 +1,18 @@
+CREATE TABLE tableName (Veerg1 type1, veerg2 type2, ....)
+
+INSERT INTO tableName (veerg1, veerg2) VALUES ('', '')
+
+DELETE FROM tableName WHERE ....
+
+SELECT veerg1, veerg2 FROM tableName
+
+ALTER TABLE tableName ADD COLUMN veerg1 type
+
+ALTER TABLE tableName DROP COLUMN veerg1 type
+
+UPDATE tableName SET veerg1=...
+
+
 Salvesta - сохрани
 
 Lülita sisse - включи
@@ -8,19 +23,19 @@ Laadi alla - скачай / laadi alla faili
 
 Laadi üles - закачай - загрузи / faili laadi üles serverisse
 
-kustuta
+kustuta - удалить
 
-käivita
+käivita - Перейти к
 
 lohista - тяни, тащи / lohista faili
 
 sisesta - введи / вставь
 
-lisa -
+lisa - добавить
 
 kuva - отобрази
 
-muuda -
+muuda - изменить
 
 --------------
 
@@ -52,22 +67,24 @@ veateade - сообщение об ошибке
 
 suurus - размер / väljasuurus
 
-andmetüüp - 
+andmetüüp - тип данных
 
-arvtüüp - 
+arvtüüp - тип числа
 
-sümboltüüp -
+sümboltüüp - символьный тип
 
-loogiline tüüp
+loogiline tüüp - логичекский тип
 
-kuupäev/aeg
+kuupäev/aeg - дата время
 
 tabeli eemaldamine -DROP TABLE 
 
-veeru muutmine / lisame / eemaldamine
+veeru muutmine / lisame / eemaldamine - изменить столбец / добавить / удалить
 
 tabeli loomine / luua tabelid -CREATE TABLE
 
 primaarne võti - Primaar Võti
 
 välisvõti - Foreign Key
+
+
