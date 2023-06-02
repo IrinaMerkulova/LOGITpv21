@@ -1,6 +1,6 @@
 Salvesta - сохрани
 rtdstr
-
+.
 #Lülita sisse - включи
 
 #Lülita välja - выключи
