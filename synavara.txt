@@ -73,3 +73,26 @@ tabeli loomine / luua tabelid -CREATE TABLE -создать таблицу
 primaarne võti - Primaar Võti - первичный ключ
 
 välisvõti - Foreign Key - вторичный ключ
+--tabeliloomine
+CREATE TABLE tablenimi ()
+
+--andmete lisamine/lisamispäring
+INSETRT INTO tablenimi WHERE....
+
+--kustutamispäring/ andmete kustutamine
+DELETE ... FROM tablenimi
+
+--kuvab/näitab tabelisisu
+SELEKT ... FROM tablename
+
+--tabeli struktuuri muutmine/ lisab uue vergu
+ALTER TABLE tablenameD COLUMN ...
+
+--kustutab veergu
+ALTER TABLE tablenameOP COLUMN ...
+
+--värskendab/uuendab andmed tabelis
+UPDATE tabelinimi SET ...=...
+
+--kustutab tabeli
+DROP tablemame
