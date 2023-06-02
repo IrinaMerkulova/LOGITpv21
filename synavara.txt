@@ -40,7 +40,7 @@ kirje / kirjed -запись
 
 väli / väljad - поля
 
-lause = päring - предложение / запрос
+päring - предложение / запрос
 
 piirang - ограничение / UNIQUE, NOT NULL, PRIMARY KEY, FOREIGN KEY, CHECK
 
@@ -74,12 +74,20 @@ primaarne võti - Primaar Võti
 
 välisvõti - Foreign Key
 ----------------------------
-Create table tabelName (veerg1 typ1, veerg2 type2, ....)
-Insert Into tableName (veerg1 typ1) Values ('', '')
-Delete from tableName where ...
-Select veerg1, veerg2 from tableName
-Alter table tableName ADD column veerg1 type
-Alter table tableName DROP column veerg1 type
-Update tableName SET veerg1=...
+Create table tabelName (veerg1 typ1, veerg2 type2, ....) = создает таблицу
+
+Insert Into tableName (veerg1 typ1) Values ('', '') = добавляет в таблицу данные
+
+Delete from tableName where ...  = удалить с таблицы данные
+
+Select veerg1, veerg2 from tableName = показывает определенные столбики в таблице
+
+Alter table tableName ADD column veerg1 type = Добавить в таблицу коллону 
+
+Alter table tableName DROP column veerg1 type = Удалить в таблицу коллону
+
+Update tableName SET veerg1=... = Обновить в таблице столбик с новыми данными
+
+DROP tablenimi = удаляет таблицу
 
 --19.05
