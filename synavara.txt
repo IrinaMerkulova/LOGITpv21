@@ -74,10 +74,15 @@ välisvõti - Foreign Key
 ---------------------------------------------------------------------------
 CREATE TABEL TABELINIMI (STOLBETS 1 TYPE,STOLBETS 2)
 ISERT INTO TABLENIMI (VERG1, 2 ) VALUES
-DELETE FROM TABELINIMI
+DELETE FROM TABELINIMI 
+--näitab abelisisu
 SELECT VEERG1, VEERG2, FROM TABELINIMI
+--tabeli strikturi muutmine /liisa uue veergu
 ALTER TABEL TABLE NIMI ADD COLUMN STOLBETS TYPE 
+--kustutab veergu 
 ALTER TABEL TABELNIMI DROP COLUMNT STOLBETS
+--värskendab/ uuendab anded tabelis
 UPDATE TABLENIMI SET VEERG1=...
-
+--kustutab tabeli
+Drop tableName
 ahahahaha
