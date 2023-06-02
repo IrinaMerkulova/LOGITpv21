@@ -81,11 +81,20 @@ kuupäev/aeg - число время
 
 
 ----------------------------------
+--Создание таблиц
 CREATE TABLE tabelnimi (veerg1 tyyp, veerg2 tyyp, ....)
+--Введение данных
 INSERT INTO tabelnimi (veerg1, veerg2) Values ('', '')
+--Удаление строчки
 DELETE FROM tabelnimi WHERE ....
+--Вывод столбца
 SELECT veerg1, veerg2 FROM tabelnimi
+--структура таблицы/добовляет новый столбец
 ALTER TABEL tabelnimi ADD COLUMN veerg1 type
+-- Удаляет столбец 
 ALTER TABEL tabelnimi DROP COLUMN veerg1
+-- обновляет данные в таблице
 UPDATE tableName SET veerg1=...
+--Удаляет таблицу
+DROP tablenimi
 19.05.2023
