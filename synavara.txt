@@ -74,11 +74,11 @@ primaarne võti - Primaar Võti - первичный ключ*
 välisvõti - Foreign Key - внешний ключ*
 
 ----------------------------------------------------------------------------------------
-create table tableName (veergi type1, veerg2 type2, ...)
-INSERT INTO tableName (veerg1, veerg2) VALUES ('', '')
-DELETE FROM tableName WHERE .....
-SELECT veerg1, veerg2 FROM tableName
-ALTER table tableName ADD COLUMN veerg1 type
-ALTER table tableName DROP COLUMN veerg1
-UPDATE tableName SET veerg1=..
+create table tableName (veergi type1, veerg2 type2, ...) - создает таблицы
+INSERT INTO tableName (veerg1, veerg2) VALUES ('', '') - вставляет данные
+DELETE FROM tableName WHERE ..... - удаляет данные / строчки
+SELECT veerg1, veerg2 FROM tableName - отображает содержание таблицы
+ALTER table tableName ADD COLUMN veerg1 type - добавляет столбец
+ALTER table tableName DROP COLUMN veerg1 - удаляет столбец
+UPDATE tableName SET veerg1=.. - обновляет данные строчки
 ------------------------------------------------------------------19.05
