@@ -73,3 +73,19 @@ tabeli loomine / luua tabelid -CREATE TABLE
 primaarne võti - Primaar Võti
 
 välisvõti - Foreign Key
+
+tabeli loomine / luua tabelid -CREATE TABLE - создание таблиц/ы
+
+INSERT INTO - andmete lisamine
+
+DELETE FROM tableName WHERE - kustutamispäring / andmete kustutamine
+
+SELECT veerg1, veerg2 -kuvab/näitab tabelisisu
+
+ALTER TABLE tableName ADD COLUMN veerg1 type --tabeli struktuuri muutmine, Lisab uue veergu 
+
+ALTER TABLE tableName DROP COLUMN veerg1 type --tabeli struktuuri muutmine, Kustutab veergu 
+
+UPDATE tableName SET veerg1=... --värskendab/uudab andmed tabelis
+
+DROP tableName --kustutab tabeli
