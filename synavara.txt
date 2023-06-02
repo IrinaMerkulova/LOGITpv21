@@ -74,12 +74,26 @@ välisvõti - Foreign Key
 
 
 --------------------
+--Tabeli loomine
 CREATE TABLE tableName(veerg1 type1,veerg2 type2, ...)
+
+--andmete lisamine / lisamispäring
 INSERT INTO tableName(veerg1, veerg2) VALUES ('', '')
+
+--kustutamispäring / andmete kustutamine (kustutab read)
 DELETE FROM tableName WHERE ....
+
+--kuvab/näitab tabelisisu
 SELECT veerg1, veerg2 FROM tableName
+
+--tabeli struktuur muutmine / lisab uue veergu
 ALTER TABLE tableName ADD COLUMN veerg1 type
-ALTER TABLE tableName DROP COLUMN veerg1 
+
+--kustutab veergu 
+ALTER TABLE tableName DROP COLUMN veerg1
+
+--värskendab / uuenab anded tabelis
 UPDATE tableName SET veerg1=...
 
-
+--kustatab tabeli
+Drop tablename 
