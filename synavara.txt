@@ -74,11 +74,27 @@ primaarne võti - Primaar Võti - основной ключ
 
 välisvõti - Foreign Key - внешний ключ
 ---------------------
+--tabeli loomine
 CREATE TABLE tableNimi(veerg1 type1, veerg2 type2...)
+
+--admete lisamine/lisamispäring
 INSERT INTO tableNimi(veerg1, veerg2) VALUES('', '')
+
+--kustutamispäring/admete kustutamine (kustuta read)
 DELETE FROM tableNimi WHERE ....
+
+--kuvab/näitab tabelisisu
 SELECT veerg1, veerg2 FROM tableName
+
+--tabeli struktuuri muutmine/lisa uue veergu
 ALTER TABLE tableNimi ADD COLUMN veerg1 type
+
+--kustutab veerg
 ALTER TABLE tableNimi DROP COLUMN veerg1
+
+--värskendab/uuendab andmed tabelis
 UPDATE tableNimi SET veerg1=...
+
+--kustutab tabeli
+DROP tableNimi
 ---------------------
